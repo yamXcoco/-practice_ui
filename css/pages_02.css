@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600,700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+:root {
+  --primary: #ff7f56;
+}
+.btn {
+  width: 294px;
+  height: 77px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 25px;
+}
+.btn:hover {
+  opacity: 60px;
+}
+.btn.btn_line {
+  border: 2px solid var(--primary);
+  background-color: #fff;
+  color: var(--primary);
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #111;
+}
+.container {
+  position: relative;
+  height: 100vh;
+}
+.input_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background);
+  width: 376px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.input_container {
+}
+.input_container > img {
+  width: 376px;
+  position: relative;
+  border-radius: 30px;
+}
+.input_top {
+  position: absolute;
+  top: 46px;
+  left: 40px;
+}
+.input_top > img {
+  padding-bottom: 30px;
+}
+.input_top h1 {
+  width: 252px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  margin-bottom: 302px;
+  color: #ffffff;
+}
+.input_buttom {
+}
+.input_buttom .btn.btn_01 {
+  position: absolute;
+  top: 532px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input_buttom .btn.btn_line {
+  position: absolute;
+  bottom: 96px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* page_2-2 */
+.container .input_container .input_buttom_02 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 376px;
+  height: 550px;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.input_buttom_02 > .contents {
+  display: flex;
+}
+.input_buttom_02 .contents .photo {
+}
+.input_buttom_02 .contents h1 {
+  margin: 44px 76px 52px 40px;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  height: 72px;
+}
+.input_buttom_02 .contents img {
+  padding-top: 44px;
+  padding-left: 18px;
+  margin: 0 auto;
+}
+.inputs > input {
+  height: 61px;
+  font-size: 20px;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+.inputs .underline {
+  margin: 0 auto;
+  content: "";
+  width: 294px;
+  height: 3px;
+  background-color: var(--primary);
+  transition: all 0.3s;
+}
+.btn_02 {
+  margin-top: 26px;
+  align-items: center;
+  position: absolute;
+  bottom: 48px;
+  left: 40px;
+}
